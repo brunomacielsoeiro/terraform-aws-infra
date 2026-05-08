@@ -1,3 +1,10 @@
+> 🎓 **Contexto acadêmico**
+> Este projeto foi desenvolvido como atividade prática de estudos sobre
+> Infraestrutura como Código (IaC) utilizando Terraform na AWS,
+> com o objetivo de consolidar conceitos de provisionamento e automação
+> de infraestrutura para cumprimento de horas complementares.
+``
+
 # terraform-aws-infra
 
 Infraestrutura AWS multi-stack com Terraform — complementar ao CloudFormation.
@@ -42,6 +49,13 @@ terraform apply
 # Destruir
 terraform destroy
 ```
+
+
+## 🔐 Considerações de Segurança
+
+- O arquivo terraform.tfvars não deve conter credenciais sensíveis.
+- Recomenda-se uso de variáveis seguras e integração com serviços como AWS Secrets Manager.
+
 
 ## Variáveis Principais
 
